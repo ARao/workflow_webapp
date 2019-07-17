@@ -1,0 +1,23 @@
+.loader-cover{
+    background-color: rgba(0, 0, 0, 0.801);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.loader {
+    background: url('assets/loader.svg') no-repeat center;
+    height: 100%;
+    width: 100%;
+}
+
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
